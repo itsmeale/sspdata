@@ -44,4 +44,4 @@ jobs:
           pypi_token: ${{ secrets.PYPI_TOKEN }}
           ignore_dev_requirements: "yes"
           poetry_version: '==1.1.6'
-          repository_name: 'itsml'
+          repository_name: 'sspdata'
