@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "sspdata"
+version = "0.0.1"
+description = "Aquisição de dados abertos de segurança pública do estado de São Paulo."
+authors = ["Alexandre Farias <0800alefarias@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.3"
+setuptools = "^57.0.0"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+pylama = "^7.7.1"
+black = "^21.6b0"
+pytest = "^6.2.4"
+isort = "^5.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fmt = "scripts.code_quality:do_code_formatting"
+isort-fmt = "scripts.code_quality:sort_import_order"
+fmt-check = "scripts.code_quality:check_code_formatting"
+isort-check = "scripts.code_quality:check_import_order"
+linter = "scripts.code_quality:linter"
+tests = "scripts.code_quality:run_tests"
