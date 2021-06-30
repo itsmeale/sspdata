@@ -28,13 +28,13 @@ jobs:
           poetry install
       - name: Check code formatting
         run: |
-          black --check ./itsml/ --exclude __init__.py --verbose
+          black --check ./sspdata/ --exclude __init__.py --verbose
       - name: Check import orders
         run: |
-          isort --check ./itsml/ --skip __init__.py --gitignore --dont-follow-links --verbose
+          isort --check ./sspdata/ --skip __init__.py --gitignore --dont-follow-links --verbose
       - name: Linter
         run: |
-          pylama ./itsml/ ./tests/
+          pylama ./sspdata/ ./tests/
       - name: Run tests
         run: |
           pytest ./tests/ --verbose --color=yes --code-highlight=yes
