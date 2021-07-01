@@ -7,7 +7,7 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name="sspdata",
-    version="0.0.1",
+    version="0.0.2",
     description="Aquisição de dados abertos de segurança pública do estado de São Paulo.",
     author="Alexandre Farias <0800alefarias@gmail.com>",
     license="MIT",
