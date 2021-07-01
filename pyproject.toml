@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sspdata"
-version = "0.0.1"
+version = "0.0.2"
 description = "Aquisição de dados abertos de segurança pública do estado de São Paulo."
 authors = ["Alexandre Farias <0800alefarias@gmail.com>"]
 
