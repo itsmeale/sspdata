@@ -5,7 +5,7 @@
 pip install sspdata
 ```
 ## Documentação dos dados e features de cada dataset
-Todos os dados são removídos do portal da transparência da SSP do estado de São Paulo:
+Todos os dados são extraídos do portal da transparência da SSP do estado de São Paulo:
 http://www.ssp.sp.gov.br/transparenciassp/Consulta.aspx
 
 Futuramente pretendo adicionar aqui ao projeto os dicionários de dados para facilitar ainda mais a utilização do projeto.
