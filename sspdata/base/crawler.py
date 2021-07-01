@@ -18,7 +18,6 @@ class BaseCrawler:
         self.request_data: Dict = None
         self.extraction_year: int = extraction_year
         self.extraction_month: int = extraction_month
-        print(self.extraction_month)
         self.default_pipeline: List[Tuple[str, str]] = [
             ("__EVENTTARGET", self.dataset.event_target),
             ("__EVENTTARGET", f"ctl00$cphBody$lkAno{self.extraction_year-2000}"),
