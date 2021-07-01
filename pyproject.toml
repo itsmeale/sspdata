@@ -9,6 +9,7 @@ python = "^3.8"
 pandas = "^1.2.3"
 setuptools = "^57.0.0"
 requests = "^2.25.1"
+bs4 = "^0.0.1"
 
 [tool.poetry.dev-dependencies]
 pylama = "^7.7.1"
